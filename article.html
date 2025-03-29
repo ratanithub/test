@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article - Global News Network</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <span class="date-time" id="datetime"></span>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>GNN</h1>
+                <p>Global News Network</p>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search news...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul class="main-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="category.html?cat=politics">Politics</a></li>
+                <li><a href="category.html?cat=business">Business</a></li>
+                <li><a href="category.html?cat=technology">Technology</a></li>
+                <li><a href="category.html?cat=sports">Sports</a></li>
+                <li><a href="category.html?cat=entertainment">Entertainment</a></li>
+                <li><a href="category.html?cat=health">Health</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Article Content -->
+    <main class="container article-container">
+        <article class="article-content">
+            <!-- Article meta -->
+            <div class="article-meta">
+                <span class="category-label politics">Politics</span>
+                <h1 id="articleTitle">Global Leaders Meet to Discuss Climate Change</h1>
+                <div class="author-info">
+                    <img src="images/authors/john-smith.jpg" alt="John Smith" class="author-avatar">
+                    <div>
+                        <span class="author-name">By John Smith</span>
+                        <span class="article-date">Published: <time datetime="2023-11-15T10:30:00">November 15, 2023</time></span>
+                        <span class="read-time">5 min read</span>
+                    </div>
+                </div>
+                <div class="social-share">
+                    <span>Share:</span>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+
+            <!-- Featured Image -->
+            <div class="article-featured-image">
+                <img src="images/featured.jpg" alt="World leaders at climate summit" id="articleImage">
+                <p class="image-caption">World leaders gather at the annual climate summit in Geneva</p>
+            </div>
+
+            <!-- Article Body -->
+            <div class="article-body" id="articleBody">
+                <p class="lead">World leaders from across the globe convened in Geneva this week for the annual Climate Summit, where they discussed urgent measures to combat climate change and set ambitious new targets for carbon emissions reduction.</p>
+                
+                <p>The summit, attended by representatives from over 120 countries, comes at a critical time as recent reports show global temperatures continuing to rise at an alarming rate. UN Secretary-General Antonio Guterres opened the conference with a stark warning: "We are on a highway to climate hell with our foot still on the accelerator."</p>
+                
+                <h2>Key Agreements Reached</h2>
+                
+                <p>After three days of intense negotiations, participants agreed on several key initiatives:</p>
+                
+                <ul>
+                    <li>A commitment to phase out coal-fired power plants by 2040 in developed nations and by 2050 worldwide</li>
+                    <li>Establishment of a $100 billion annual climate fund to help developing nations transition to renewable energy</li>
+                    <li>New regulations on methane emissions from oil and gas operations</li>
+                    <li>Strengthened carbon trading mechanisms between nations</li>
+                </ul>
+                
+                <h2>Notable Absences</h2>
+                
+                <p>Several major economies were notably absent from the negotiations. The leaders of China and India participated only virtually, while Russia declined to send any representatives. US President John Doe emphasized that "climate change knows no borders" and urged all nations to participate fully in the solution.</p>
+                
+                <div class="article-quote">
+                    <blockquote>
+                        "This is not about politics or economics - it's about survival. The decisions we make today will determine what kind of world our children inherit tomorrow."
+                        <footer>- German Chancellor Angela Merkel</footer>
+                    </blockquote>
+                </div>
+                
+                <p>Environmental activists gathered outside the conference center, with some expressing cautious optimism while others demanded more aggressive action. Greta Thunberg addressed the crowd, stating that while progress was being made, it wasn't happening fast enough to avert catastrophe.</p>
+                
+                <h2>What's Next?</h2>
+                
+                <p>The agreements reached at this summit will form the basis for national climate policies over the coming year. A follow-up meeting has been scheduled for next June to assess progress on the commitments made this week.</p>
+            </div>
+
+            <!-- Article Tags -->
+            <div class="article-tags">
+                <span>Tags:</span>
+                <a href="category.html?cat=politics">Politics</a>
+                <a href="category.html?cat=environment">Environment</a>
+                <a href="category.html?cat=climate">Climate Change</a>
+                <a href="category.html?cat=international">International</a>
+            </div>
+
+            <!-- Related Articles -->
+            <section class="related-articles">
+                <h3>Related Articles</h3>
+                <div class="related-grid">
+                    <div class="related-card">
+                        <img src="images/related1.jpg" alt="Renewable Energy">
+                        <div class="related-content">
+                            <span class="category-label business">Business</span>
+                            <h4><a href="article.html?id=2">Renewable Energy Investments Hit Record High</a></h4>
+                            <p>Global investments in solar and wind power reached $500 billion this year...</p>
+                        </div>
+                    </div>
+                    <div class="related-card">
+                        <img src="images/related2.jpg" alt="Extreme Weather">
+                        <div class="related-content">
+                            <span class="category-label environment">Environment</span>
+                            <h4><a href="article.html?id=3">Scientists Warn of More Extreme Weather Events</a></h4>
+                            <p>New study shows climate change is increasing frequency of hurricanes...</p>
+                        </div>
+                    </div>
+                    <div class="related-card">
+                        <img src="images/related3.jpg" alt="Green Technology">
+                        <div class="related-content">
+                            <span class="category-label technology">Technology</span>
+                            <h4><a href="article.html?id=4">Breakthrough in Carbon Capture Technology</a></h4>
+                            <p>Researchers develop new method to remove CO2 from atmosphere...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter for daily news updates</p>
+            <form id="newsletterForm">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>About GNN</h3>
+                    <p>Global News Network brings you the latest and most accurate news from around the world, 24/7.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="category.html?cat=politics">Politics</a></li>
+                        <li><a href="category.html?cat=business">Business</a></li>
+                        <li><a href="category.html?cat=technology">Technology</a></li>
+                        <li><a href="category.html?cat=sports">Sports</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Advertise</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Global News Network. All rights reserved.</p>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script>
+        // Article-specific JavaScript
+        document.addEventListener('DOMContentLoaded', function() {
+            // Update date and time
+            function updateDateTime() {
+                const now = new Date();
+                const options = { 
+                    weekday: 'long', 
+                    year: 'numeric', 
+                    month: 'long', 
+                    day: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                };
+                document.getElementById('datetime').textContent = now.toLocaleDateString('en-US', options);
+            }
+            updateDateTime();
+            setInterval(updateDateTime, 60000);
+
+            // Load article content based on ID from URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const articleId = urlParams.get('id');
+            
+            // In a real implementation, you would fetch the article data from an API or database
+            // For this example, we'll just log the ID
+            console.log('Loading article with ID:', articleId);
+            
+            // You would then use the ID to fetch and display the specific article content
+            // fetchArticleContent(articleId);
+        });
+    </script>
+</body>
+</html>
